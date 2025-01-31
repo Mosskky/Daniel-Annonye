@@ -13,3 +13,25 @@ for(let i=0;i<=50;i+=5){
   }
 }
 printNumbers();
+
+//new function and example by Noah A
+
+function print(a){
+console.log(a)
+}
+function New(a,b){
+for (i=0; i<=a; i++){
+if (b=="odd" && i%2!=0){
+print(i)
+}
+if (b=="even" && i%2==0){
+print(i)
+}
+if (b==null){
+print(i)
+}
+}
+}
+//New(6,"odd")
+//New(6,"even")
+//New(6)
