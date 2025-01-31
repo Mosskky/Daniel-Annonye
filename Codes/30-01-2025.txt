@@ -27,7 +27,7 @@ print(i);
 if (b=="even" && i%2==0){
 print(i);
 }
-if (b!=null){//error on this line, should be ==, please fix..
+if (b==null){
 print(i);
 }
 }
